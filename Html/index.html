@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html</title>
+</head>
+<body>
+<form action="/myFirstIndex.com" method="post">
+    <label for="clientName">Your name</label>
+    <input type="text" name="clientName">
+    <button type="submit">Send a request</button>
+
+    <p>
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" id="pass">
+    </p>
+
+    <p>
+        <input type="radio" value="IDEA" name="ide" id="radio1">IDEA<br>
+        <input type="radio" value="PyCharm" name="ide" id="radio2">PyCharm<br>
+        <input type="radio" value="WebStorm" name="ide" id="radio3">WebStorm
+    </p>
+
+    <p>
+        <label for="bio">Tell about you:</label>
+        <textarea name="bio" id="bio" cols="10" rows="2" disabled></textarea>
+    </p>
+
+    <label for="level1">Select your level:</label>
+    <select name="level1" id="applicant-level">
+        <option value="1">junior</option>
+        <option value="2">middle</option>
+        <option value="3" selected>senior</option>
+    </select>
+
+    <p>
+        <label for="level2">Select your level again:</label>
+        <select name="level2" id="applicant-level-again" multiple>
+            <option value="1">junior</option>
+            <option value="2">middle</option>
+            <option value="3" selected>senior</option>
+        </select>
+    </p>
+
+    <p>
+        <!-- <input type="button" value="Become a web developer"> -->
+        <button type="submit" value="Send request">Отправить заявку</button>
+    </p>
+</form>s
+</body>
+</html>
