@@ -7,10 +7,12 @@
 
 body {
     background-color: #feeed6;
+    color: #676565;
 }
 
 p{
     text-indent: 20px;
+    line-height: 1.5;
 }
 
 .container {
@@ -22,9 +24,14 @@ p{
 }
 
 h1.article-title {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 span.terms-title {
-    color: #1E90FF;
+    color: #378db2;
+    line-height: 1.5;
+}
+
+span.line {
+    text-decoration: line-through;
 }
