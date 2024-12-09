@@ -38,6 +38,10 @@ h1.article-title {
     margin: 0 0 0.4em;
 }
 
+.terms-title{
+    font-size: 1.1em;
+}
+
 span.terms-title-blue {
     color: #378db2;
     line-height: 1.8em;
