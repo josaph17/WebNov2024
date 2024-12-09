@@ -5,32 +5,42 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 14px;
+}
+
 body {
-    background-color: #feeed6;
     color: #676565;
 }
 
-p{
+p {
     text-indent: 20px;
     line-height: 1.5;
 }
 
 .container {
+    text-align: justify;
+    background-color: #feeed6;
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
+    padding: 0 1.3em;
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 h1.article-title {
-    font-size: 30px;
+    font-size: 2.5em;
 }
 
 span.terms-title {
-    color: #378db2;
-    line-height: 1.5;
+    font-size: 1.25em;
 }
+
+span.terms-title-blue {
+    color: #378db2;
+    line-height: 1.8em;
+}
+
 
 span.line {
     text-decoration: line-through;
