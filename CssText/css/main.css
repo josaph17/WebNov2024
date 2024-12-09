@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 body {
@@ -18,11 +18,15 @@ p {
     line-height: 1.5;
 }
 
+li {
+    font-size: 1.1em;
+}
+
 .container {
     text-align: justify;
     background-color: #feeed6;
     width: 100%;
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 1.3em;
     font-family: Helvetica, sans-serif;
@@ -32,13 +36,10 @@ h1.article-title {
     font-size: 2.5em;
 }
 
-span.terms-title {
-    font-size: 1.25em;
-}
-
 span.terms-title-blue {
     color: #378db2;
     line-height: 1.8em;
+    font-weight: bold;
 }
 
 
