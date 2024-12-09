@@ -16,6 +16,8 @@ body {
 p {
     text-indent: 20px;
     line-height: 1.5;
+    margin: 0.6em 0px;
+    text-align: justify;
 }
 
 li {
@@ -23,7 +25,6 @@ li {
 }
 
 .container {
-    text-align: justify;
     background-color: #feeed6;
     width: 100%;
     max-width: 600px;
@@ -33,7 +34,8 @@ li {
 }
 
 h1.article-title {
-    font-size: 2.5em;
+    font-size: 1.7em;
+    margin: 0 0 0.4em;
 }
 
 span.terms-title-blue {
