@@ -6,27 +6,43 @@
 </head>
 <body>
 <form action="/myFirstIndex.com" method="post">
+    <p><b>The stages of filling out the application form:</b></p>
+    <ol>
+        <li><b>Fill out the form</b></li>
+        <li><b>Send it</b></li>
+    </ol>
+
+
     <label for="clientName">Your name</label>
-    <input type="text" name="clientName">
+    <input type="text" id ="clientName" name="clientName">
     <button type="submit">Send a request</button>
 
     <p>
         <label for="password">Enter your password</label>
-        <input type="password" name="password" id="pass">
+        <input type="password" name="password" id="password">
     </p>
 
     <p>
-        <input type="radio" value="IDEA" name="ide" id="radio1">IDEA<br>
-        <input type="radio" value="PyCharm" name="ide" id="radio2">PyCharm<br>
-        <input type="radio" value="WebStorm" name="ide" id="radio3">WebStorm
+        <input type="radio" id="idea" name="ide" value="Idea">
+        <label for="idea">IDEA</label>
+        <br>
+
+        <input type="radio" id="pycharm" name="ide" value="PyCharm">
+        <label for="pycharm">PyCharm</label>
+        <br>
+
+        <input type="radio" id="webstorm" name="ide" value="WebStorm">
+        <label for="webstorm">WebStorm</label>
+        <br>
     </p>
 
     <p>
-        <label for="bio">Tell about you:</label>
-        <textarea name="bio" id="bio" cols="10" rows="2" disabled></textarea>
+        <label>
+            Tell about you: <textarea name="bio" cols="10" rows="2" disabled></textarea>
+        </label>
     </p>
 
-    <label for="level1">Select your level:</label>
+    <label>Select your level:</label>
     <select name="level1" id="applicant-level">
         <option value="1">junior</option>
         <option value="2">middle</option>
@@ -34,22 +50,37 @@
     </select>
 
     <p>
-        <label for="level2">Select your level again:</label>
-        <select name="level2" id="applicant-level-again" multiple>
+        <label>Select your level again:</label>
+        <select name="level2"  multiple>
             <option value="1">junior</option>
             <option value="2">middle</option>
             <option value="3" selected>senior</option>
         </select>
     </p>
 
+    <label>What skills do you have:</label>
     <p>
-        <!-- <input type="button" value="Become a web developer"> -->
-        <button type="submit" value="Send request">Отправить заявку</button>
+        <input type="checkbox" id="teamwork" name="skills" value="Teamwork">
+        <label for="teamwork">Teamwork</label>
+        <br>
+
+        <input type="checkbox" id="problem_solving" name="skills" valuez="ProblemSolving">
+        <label for="problem_solving">Problem solving</label>
+        <br>
+
+        <input type="checkbox" id="critical_thinking" name="skills" value="CriticalThinking">
+        <label for="critical_thinking">Critical thinking</label>
     </p>
 
     <p>
-        <a href="http://localhost:63342/WebNov2024/Html/index2.html?_ijt=5uivuq7camh3ff18n61v5j3d7p&_ij_reload=RELOAD_ON_SAVE">Go to other web page</a>
+        <!-- <input type="button" value="Become a web developer"> -->
+        <button type="submit" value="Send request">Send a request</button>
     </p>
 </form>
+
+<p>
+    <a href="http://localhost:63342/WebNov2024/Html/index2.html?_ijt=5uivuq7camh3ff18n61v5j3d7p&_ij_reload=RELOAD_ON_SAVE">Go to other web page
+    </a>
+</p>
 </body>
 </html>
