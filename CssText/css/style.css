@@ -1,27 +1,18 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-html {
-    font-size: 12px;
-}
-
 body {
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
     color: #676565;
 }
 
-p {
+.paragraph {
     text-indent: 20px;
     line-height: 1.5;
-    margin: 0.6em 0;
+    margin: 1px 0 7px;
     text-align: justify;
-}
-
-li {
-    font-size: 1.1em;
 }
 
 .container {
@@ -30,17 +21,18 @@ li {
     max-width: 596px;
     min-height: 340px;
     margin: 0 auto;
-    padding: 0 1.3em;
-    font-family: Helvetica, sans-serif;
+    padding: 0 11px;
 }
 
-h1.article-title {
-    font-size: 1.7em;
-    margin: 0 0 0.4em;
+.title {
+    font-size: 22px;
+    line-height: 25px;
+    padding: 7px 0 3px 0;
 }
 
 .terms-title{
-    font-size: 1.1em;
+    font-size: 1.09em;
+    /*margin: 1px 0;*/
 }
 
 span.terms-title-blue {
