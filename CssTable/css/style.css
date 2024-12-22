@@ -1,48 +1,51 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/*for "CSS Table" project*/
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Commissioner:wght@100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+* {
+    box-sizing: border-box;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+
+html {
+    font-size: 18px;
+    font-family: "Carlito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-body {
-    line-height: 1;
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
+
+table{
+    border: 1px solid grey;
+    width: 688px;
     border-collapse: collapse;
-    border-spacing: 0;
+    position:absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
 }
+
+th,td{
+    border: 1px solid grey;
+}
+
+th {
+    width: 20%;
+    background-color: #3598DB;
+    color:white;
+    padding: 10px 0;
+}
+
+td {
+    padding: 14px 0 0 0;
+}
+
+td:first-child {
+    /*width: 30%;*/
+}
+
