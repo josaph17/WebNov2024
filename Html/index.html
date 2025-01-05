@@ -37,12 +37,11 @@
     </p>
 
     <p>
-        <label>
-            Tell about you: <textarea name="bio" cols="10" rows="2" disabled></textarea>
-        </label>
+        <label for="bio"> Tell about you:</label>
+        <textarea id="bio" name="bio" cols="10" rows="2"></textarea>
     </p>
 
-    <label>Select your level:</label>
+    <label for="applicant-level">Select your level:</label>
     <select name="level1" id="applicant-level">
         <option value="1">junior</option>
         <option value="2">middle</option>
@@ -50,8 +49,8 @@
     </select>
 
     <p>
-        <label>Select your level again:</label>
-        <select name="level2" multiple>
+        <label for="applicant-level-again">Select your level again:</label>
+        <select name="level2" multiple id="applicant-level-again">
             <option value="1">junior</option>
             <option value="2">middle</option>
             <option value="3" selected>senior</option>
