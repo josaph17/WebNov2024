@@ -27,21 +27,19 @@ body {
 .title {
     font-size: 22px;
     line-height: 25px;
-    padding: 7px 0 3px 0;
+    padding: 7px 0 3px;
 }
 
-.terms-title{
+.terms-title {
     font-size: 1.09em;
-    /*margin: 1px 0;*/
 }
 
-span.terms-title-blue {
+.terms-title-blue {
     color: #378db2;
     line-height: 1.8em;
     font-weight: bold;
 }
 
-
-span.line {
+.line {
     text-decoration: line-through;
 }
