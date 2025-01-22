@@ -8,29 +8,30 @@ body {
     color: #676565;
 }
 
-.paragraph {
-    text-indent: 20px;
-    line-height: 1.5;
-    margin: 1px 0 7px;
-    text-align: justify;
-}
-
 .container {
     background-color: #feeed6;
     width: 100%;
-    max-width: 596px;
+    max-width: 747px;
     margin: 0 auto;
-    padding: 0 11px;
+    padding: 0 14px;
+}
+
+.paragraph {
+    font-size: 14px;
+    text-indent: 20px;
+    line-height: 1.55;
+    margin: 1px 0 11px;
+    text-align: justify;
 }
 
 .title {
-    font-size: 22px;
-    line-height: 25px;
-    padding: 7px 0 6px;
+    font-size: 27px;
+    line-height: 31px;
+    padding: 15px 0 8px;
 }
 
 .terms-title {
-    font-size: 1.09em;
+    font-size: 16px;
 }
 
 .terms-title-blue {
